@@ -11,3 +11,7 @@ Welcome to the Indian Dessert Recipe Website! This is a beginner-friendly HTML a
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout of the webpage.
+  
+## **View the Project** 🌐
+- You can view the live website hosted on GitHub Pages:  
+[**Indian Dessert Recipe Website**](https://github.com/Sarahsahu/Recipe-Website.git)
