@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* height: 100vh;*/
+    width: 100vw;
+    background-color: #EDEADE;
+
+}
+.navContainer{
+    width: 100vw;
+    height: 70px;
+    padding: 15px;
+    /* background-color: rgb(209, 205, 255); */
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    width: 100vw;
+}
+#navList{
+    list-style: none; /*for no bullets*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+#navName{
+ font-size: 2.5rem; /*root em <ul>*/
+}
+#navListItems{
+    display: flex;
+    gap: 30px; /*gap btw list items*/
+
+}
+a{
+    text-decoration: none; /*remove underline from a */
+}
+.footerBox{
+    height: 40px;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    font-size: medium;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1200px; /* centers content within a readable width */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.leftBox{
+    display: box;
+    flex-direction: column; /*item name, ingrd,recipe in colm*/
+    gap: 50px;
+}
+.leftBox h2{
+    font-size: 2rem ;
+    font-family: cursive;
+}
+
+.rightBox img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    transition: all 0.6s linear 0s; /*on image*/
+}
+.rightBox img:hover{
+    transform:scale(1.1) ; /*image enlarge when hover*/
+
+}
